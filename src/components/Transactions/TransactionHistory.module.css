@@ -1,0 +1,15 @@
+.transaction_history {
+  text-transform: uppercase;
+  background-color: white;
+  margin-left: 10px;
+  margin-top: 15px;
+  width: 350px;
+  text-align: center;
+  table-layout: fixed;
+}
+
+.transaction_history th {
+  background-color: rgba(5, 155, 209, 0.788);
+  color: white;
+  height: 50px;
+}
