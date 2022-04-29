@@ -1,0 +1,7 @@
+.transaction_item {
+  text-transform: capitalize;
+}
+
+.tbody tr:nth-child(odd) {
+  background: #ebf3f9;
+}
