@@ -8,8 +8,35 @@
   table-layout: fixed;
 }
 
-.transaction_history th {
-  background-color: rgba(5, 155, 209, 0.788);
-  color: white;
-  height: 50px;
+.tr:nth-child(2n) {
+  background-color: rgb(238, 246, 249);
+}
+
+.td:first-of-type {
+  text-transform: capitalize;
+}
+
+.thead {
+  background-color: rgb(55, 211, 250);
+}
+
+.th {
+  width: 200px;
+  padding: 10px;
+  text-transform: uppercase;
+  color: aliceblue;
+  font-weight: 500;
+}
+
+.th {
+  border: 1px solid aliceblue;
+}
+
+.tbody {
+  text-align: center;
+}
+
+.td {
+  padding: 10px;
+  color: rgb(137, 139, 140);
 }
