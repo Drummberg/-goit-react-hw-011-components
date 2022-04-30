@@ -1,8 +1,8 @@
 .item {
   margin-bottom: 15px;
   display: flex;
-  width: 160px;
-  justify-content: space-around;
+  width: 260px;
+  padding: 20px;
   align-items: center;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
@@ -13,19 +13,22 @@
 }
 
 .status_online {
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   background-color: green;
   border-radius: 50%;
+  margin-right: 20px;
 }
 
 .status_offline {
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   background-color: red;
   border-radius: 50%;
+  margin-right: 20px;
 }
 
 .name {
   font-weight: 600;
+  margin-left: 20px;
 }
